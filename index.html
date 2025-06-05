@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Landscaping Design & Maintenance | LALANA</title>
+    <meta
+      name="description"
+      content="Transform your outdoor space with high-end landscaping design, expert installation, and premium maintenance services. We build landscapes you'll truly love."
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="font-sans">
+    <nav class="px-4 md:px-16 flex justify-between items-center relative">
+      <div>
+        <a href="">
+          <img
+            src="images/logo.png"
+            class="w-32 md:w-[70%] cursor-pointer"
+            alt="Logo"
+          />
+        </a>
+      </div>
+      <!-- HEADER -->
+      <div class="hidden md:flex gap-5 items-center">
+        <a href="#aboutUs" class="underline-anim text-[14px] font-medium">
+          About
+        </a>
+        <a href="#services" class="underline-anim text-[14px] font-medium">
+          Services
+        </a>
+        <a href="#ourWorks" class="underline-anim text-[14px] font-medium">
+          Our Work
+        </a>
+        <a href="#contactUs"
+          ><button class="btn-primary-green text-[14px] !font-medium">
+            Contact Us
+          </button></a
+        >
+      </div>
+      <!-- MOBILE HEADER -->
+      <button
+        id="mobile-menu-button"
+        class="md:hidden focus:outline-none p-2 flex flex-col space-y-1"
+      >
+        <span
+          class="block w-6 h-0.5 bg-gray-700 transition-all origin-center"
+        ></span>
+        <span
+          class="block w-6 h-0.5 bg-gray-700 transition-all origin-center"
+        ></span>
+        <span
+          class="block w-6 h-0.5 bg-gray-700 transition-all origin-center"
+        ></span>
+      </button>
+
+      <div
+        id="mobile-menu"
+        class="absolute top-full left-0 right-0 bg-white shadow-md flex flex-col items-start px-6 py-4 gap-4 md:hidden z-50"
+        style="display: none"
+      >
+        <a href="#aboutUs">About</a>
+        <a href="#services">Services</a>
+        <a href="#ourWorks">Our Work</a>
+        <a href="#contactUs" class="w-full">
+          <button class="btn-primary-green !w-full text-center">
+            Contact Us
+          </button>
+        </a>
+      </div>
+    </nav>
+    <!-- HERO SECTION -->
+    <section>
+      <div class="relative h-[90vh] md:h-screen">
+        <img src="images/green-park 1.png" class="w-full h-full object-cover" />
+
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-white via-white/70 to-transparent h-full"
+        ></div>
+
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-center px-4"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div
+            class="flex items-center gap-2 bg-white/40 border border-white px-6 py-2 rounded-full shadow-md mb-6"
+          >
+            <img src="images/grass.svg" alt="Lawn Icon" class="w-5 h-5" />
+            <span class="text-[#00973F] font-semibold tracking-tight text-xs"
+              >LAWS & LANDSCAPING</span
+            >
+          </div>
+          <h1 class="text-2xl md:text-5xl font-bold mb-4">
+            We Build Landscaping That You’ll Love
+          </h1>
+          <h2 class="text-lg md:text-xl mb-6 max-w-2xl font-medium">
+            High-end design, expert installation, and white-glove maintenance.
+          </h2>
+          <div class="flex flex-col md:flex-row gap-4">
+            <a href="#contactUs"
+              ><button class="btn-primary-green">Contact Us</button></a
+            >
+            <a href="#services">
+              <button class="btn-primary-white">Our Services</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <div
+      id="aboutUs"
+      class="flex flex-col justify-center items-center text-center p-4 md:p-8"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div
+        class="flex items-center gap-2 bg-white/40 border-primary px-4 py-1 rounded-full mb-6"
+      >
+        <span class="text-primary font-medium text-sm tracking-tight"
+          >About Us</span
+        >
+      </div>
+      <div class="flex flex-col gap-5 justify-center items-center">
+        <h3 class="text-2xl md:text-4xl font-bold">
+          We are Your <br />
+          Trusted Partner in <span class="text-primary">Lawn</span> &
+          <span class="text-primary">Landscaping</span>
+        </h3>
+        <p class="max-w-3xl px-4 md:px-0 font-medium tracking-tight">
+          Lucas Landscape, a full-service contractor since 1988, offers quality
+          lawn maintenance, landscaping, irrigation, and landscape construction
+          services to residential and commercial customers in North and South
+          Carolina. They are licensed, bonded, and insured, with a team of
+          licensed contractors.
+        </p>
+        <button class="btn-primary-green">Know More</button>
+      </div>
+    </div>
+    <!-- SERVICES -->
+    <div class="bg-[#72BD4412] mt-16" id="services">
+      <div class="px-4 md:mx-24 py-8 md:py-12">
+        <div
+          class="flex flex-col justify-center items-center gap-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div
+            class="flex items-center gap-2 bg-white/40 border-primary px-4 py-1 rounded-full"
+          >
+            <span class="text-primary font-medium text-sm tracking-tight"
+              >Our Services</span
+            >
+          </div>
+          <h4 class="text-2xl md:text-4xl font-bold text-center">
+            Our Landscaping & Lawn Care Services
+          </h4>
+          <p class="text-center px-2 font-medium tracking-tight">
+            Expert solutions tailored to your outdoor needs.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10 mt-12"
+        >
+          <div
+            class="border-primary shadow-xl bg-white rounded py-10 px-4 text-center flex flex-col items-center gap-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <img src="images/service-1.svg" alt="" />
+            <h5 class="text-lg font-semibold tracking-tighter">
+              Lawn and Landscape Management
+            </h5>
+            <p
+              class="max-w-xs tracking-tighter font-medium text-[14px] text-[#0000008C]"
+            >
+              Complete lawn care including mowing, edging, fertilization, and
+              weed control.
+            </p>
+          </div>
+
+          <div
+            class="border-primary shadow-xl bg-white rounded py-10 px-4 text-center flex flex-col items-center gap-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <img src="images/service-2.svg" alt="" />
+            <h5 class="text-lg font-semibold tracking-tighter">
+              Landscape Design and Installation
+            </h5>
+            <p
+              class="max-w-xs tracking-tighter font-medium text-[14px] text-[#0000008C]"
+            >
+              Custom landscape designs with expert installation of plants,
+              trees, and shrubs.
+            </p>
+          </div>
+
+          <div
+            class="border-primary shadow-xl bg-white rounded py-10 px-4 text-center flex flex-col items-center gap-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <img src="images/service-3.png" alt="" />
+            <h5 class="text-lg font-semibold tracking-tighter">
+              Irrigation Systems
+            </h5>
+            <p
+              class="max-w-xs tracking-tighter font-medium text-[14px] text-[#0000008C]"
+            >
+              Design, installation, and repair of efficient irrigation systems.
+            </p>
+          </div>
+
+          <div
+            class="border-primary shadow-xl bg-white rounded py-10 px-4 text-center flex flex-col items-center gap-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <img src="images/service-4.png" alt="" />
+            <h5 class="text-lg font-semibold tracking-tighter">
+              Hardscaping Solutions
+            </h5>
+            <p
+              class="max-w-xs tracking-tighter font-medium text-[14px] text-[#0000008C]"
+            >
+              Block walls, paver patios, and other hardscape elements with a
+              variety of materials.
+            </p>
+          </div>
+
+          <div
+            class="border-primary shadow-xl bg-white rounded py-10 px-4 text-center flex flex-col items-center gap-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <img src="images/service-5.png" alt="" />
+            <h5 class="text-lg font-semibold tracking-tighter">
+              Water Features
+            </h5>
+            <p
+              class="max-w-xs tracking-tighter font-medium text-[14px] text-[#0000008C]"
+            >
+              Beautiful ponds, streams, and fountain installations to enhance
+              your landscape.
+            </p>
+          </div>
+
+          <div
+            class="border-primary shadow-xl bg-white rounded py-10 px-4 text-center flex flex-col items-center gap-3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <img src="images/service-6.png" alt="" />
+            <h5 class="text-lg font-semibold tracking-tighter">
+              Outdoor Lighting
+            </h5>
+            <p
+              class="max-w-xs tracking-tighter font-medium text-[14px] text-[#0000008C]"
+            >
+              Professional low-voltage lighting design and installation
+            </p>
+          </div>
+        </div>
+        <!-- ADDITIONAL SERVICES -->
+        <div
+          class="bg-white mt-12 py-6 px-6 md:px-8 text-center rounded shadow-xl"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <h4 class="text-xl md:text-2xl font-bold">
+            Additional Services Include
+          </h4>
+          <div
+            class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-6 max-w-4xl mx-auto tracking-tight font-medium"
+          >
+            <div
+              class="flex gap-2 items-center justify-center md:justify-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <img src="images/secureIcon.svg" alt="" />
+              <p>Light Grading</p>
+            </div>
+            <div
+              class="flex gap-2 items-center justify-center md:justify-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <img src="images/secureIcon.svg" alt="" />
+              <p>Sod Installation</p>
+            </div>
+            <div
+              class="flex gap-2 items-center justify-center md:justify-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              <img src="images/secureIcon.svg" alt="" />
+              <p>Landscape Maintenance</p>
+            </div>
+            <div
+              class="flex gap-2 items-center justify-center md:justify-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <img src="images/secureIcon.svg" alt="" />
+              <p>Seasonal Cleanup</p>
+            </div>
+            <div
+              class="flex gap-2 items-center justify-center md:justify-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <img src="images/secureIcon.svg" alt="" />
+              <p>Mulch Installation</p>
+            </div>
+            <div
+              class="flex gap-2 items-center justify-center md:justify-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <img src="images/secureIcon.svg" alt="" />
+              <p>Drainage Solutions</p>
+            </div>
+          </div>
+          <div class="mt-8">
+            <p class="tracking-tight font-medium">
+              We provide free estimates... Give us a call to schedule an
+              appointment.
+            </p>
+            <a href="#contactUs"
+              ><button class="btn-primary-green mt-5">Contact Us</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Credentials -->
+    <section class="bg-white py-12 px-4 md:px-16">
+      <div
+        class="text-center mb-12"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h2 class="text-2xl md:text-3xl font-bold">Our Credentials</h2>
+        <p class="mt-2 font-medium tracking-tight">
+          We take pride in our professional qualifications and certifications.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div
+          class="bg-[#72BD44] text-white rounded-lg p-6 w-full text-center shadow-lg group transform transition-transform hover:-translate-y-2 transition-all"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
+          <div class="flex justify-center mb-4">
+            <div
+              class="bg-[#86c75f] rounded-full group-hover:scale-125 transition-all p-3"
+            >
+              <img src="images/credentional-1.svg" alt="" />
+            </div>
+          </div>
+
+          <h3 class="text-lg font-bold mb-4">Licensing & Insurance</h3>
+
+          <ul class="text-left space-y-2">
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span>Fully Licensed and Insured</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span> Landscape Contractor </span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span> Irrigation Contractor </span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span>Corporation Contractor</span>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="bg-[#72BD44] text-white rounded-lg p-6 w-full text-center shadow-lg group transform transition-transform hover:-translate-y-2 transition-all"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="flex justify-center mb-4">
+            <div
+              class="bg-[#86c75f] rounded-full p-3 group-hover:scale-125 transition-all"
+            >
+              <img src="images/credentional-2.svg" alt="" />
+            </div>
+          </div>
+
+          <h3 class="text-lg font-bold mb-4">Certifications</h3>
+
+          <ul class="text-left space-y-2">
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span>Ornamental and Pest Certified</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span> Low-Voltage Lighting Certified </span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span> Paver/Block Wall Certified </span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span>Pesticide Licensed</span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bg-[#72BD44] text-white rounded-lg p-6 w-full text-center shadow-lg group transform transition-transform hover:-translate-y-2 transition-all"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <div class="flex justify-center mb-4">
+            <div
+              class="bg-[#86c75f] rounded-full p-3 group-hover:scale-125 transition-all"
+            >
+              <img src="images/credentional-3.svg" alt="" />
+            </div>
+          </div>
+
+          <h3 class="text-lg font-bold mb-4">Design Expertise</h3>
+
+          <ul class="text-left space-y-2">
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span>Landscape Designer In-House</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span> AutoCAD Computer Drawings </span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span> 3D Landscape Visualization </span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span>✓</span>
+              <span>Sustainable Design Practices</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p
+        class="text-center tracking-tight font-medium max-w-md mx-auto mt-8"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        Our qualified team is ready to bring your landscaping vision to life
+        with professional expertise and attention to detail.
+      </p>
+    </section>
+    <!-- OUR works -->
+    <section class="bg-[#F4FAF2] py-12 px-4 md:px-16" id="ourWorks">
+      <div
+        class="text-center flex justify-center flex-col items-center mb-10"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div
+          class="flex items-center gap-2 bg-white/40 border-primary px-4 py-1 rounded-full"
+        >
+          <span class="text-primary font-medium text-sm tracking-tight"
+            >Our Works</span
+          >
+        </div>
+        <h2 class="text-2xl md:text-3xl font-bold mt-4">
+          Landscaping That Speaks for Itself
+        </h2>
+        <p class="mt-2 tracking-tighter font-medium">
+          Expert solutions tailored to your outdoor needs.
+        </p>
+      </div>
+      <section class="lg:h-screen px-4 py-6">
+        <div class="max-w-7xl lg:h-full mx-auto">
+          <div
+            class="grid lg:h-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:grid-rows-[repeat(3,minmax(0,1fr))]"
+          >
+            <div
+              class="col-span-2 md:row-span-2"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <img
+                src="images/our-work-1.png"
+                alt="Image 1"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <img
+                src="images/our-work-2.png"
+                alt="Image 2"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <img
+                src="images/our-work-3.png"
+                alt="Image 3"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+
+            <div
+              class="md:row-span-2 col-span-2"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              <img
+                src="images/our-work-4.png"
+                alt="Image 4"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+
+            <div
+              class="col-span-2"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <img
+                src="images/our-work-5.png"
+                alt="Image 5"
+                class="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center mt-8" data-aos="fade-up" data-aos-duration="1000">
+        <button class="btn-primary-green">Know More</button>
+      </div>
+    </section>
+
+    <!-- CONTACT US -->
+    <section class="bg-white mt-10 px-4" id="contactUs">
+      <div
+        class="text-center flex flex-col justify-center items-center mb-8"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div
+          class="flex items-center gap-2 bg-white/40 border-primary px-4 py-1 rounded-full mb-4"
+        >
+          <span class="text-primary font-medium text-sm tracking-tight"
+            >Contact Us</span
+          >
+        </div>
+        <h2 class="text-2xl md:text-3xl font-bold">
+          Let’s Talk About Your Outdoor Vision
+        </h2>
+      </div>
+
+      <div
+        class="max-w-5xl mx-auto bg-white flex flex-col-reverse flex-col md:flex-row overflow-hidden"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div
+          class="bg-[#F3FAEE] px-4 py-4 md:w-1/3 rounded-lg md:shadow-none shadow-xl"
+        >
+          <h3 class="text-lg font-semibold mb-6">Contact Information</h3>
+          <div class="space-y-6 mx-6 text-sm">
+            <div class="flex items-start gap-2">
+              <div class="rounded-full p-3 bg-white">
+                <img src="images/map-pin.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-bold">Address</p>
+                <p>
+                  1239 Industrial Dr, <br />
+                  Matthews, NC - 28105
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-2">
+              <div class="rounded-full p-3 bg-white">
+                <img src="images/phone.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-bold">Phone</p>
+                <a href="tel:+17045799861" class="underline"
+                  >+1 (704) 579-9861</a
+                >
+              </div>
+            </div>
+            <div class="flex items-start gap-2">
+              <div class="rounded-full p-3 bg-white">
+                <img src="images/mage_email.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-bold">Email</p>
+                <a href="mailto:info@lucaslandscape.com" class="underline"
+                  >info@lucaslandscape.com</a
+                >
+              </div>
+            </div>
+            <div class="flex items-start gap-2">
+              <div class="rounded-full p-3 bg-white">
+                <img src="images/houre.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-bold">Hours</p>
+                <p>
+                  Mon - Fri: 8:00 AM - 5:00 PM <br />
+                  Sat & Sun: Closed
+                </p>
+              </div>
+            </div>
+            <div>
+              <p class="font-bold">Follow Us</p>
+              <div class="flex gap-3 mt-2">
+                <a href="">
+                  <div
+                    class="rounded-full p-3 bg-[#72BD44] hover:scale-110 transition-all group"
+                  >
+                    <img
+                      src="images/facebook.svg"
+                      class="group-hover:scale-110 transition-all"
+                      alt=""
+                    />
+                  </div>
+                </a>
+
+                <a href="">
+                  <div
+                    class="rounded-full p-3 bg-[#72BD44] hover:scale-110 transition-all"
+                  >
+                    <img
+                      src="images/instagram.svg"
+                      class="group-hover:scale-110 transition-all"
+                      alt=""
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-4 md:w-2/3">
+          <form id="contactForm" class="space-y-5">
+            <div class="flex flex-col md:flex-row gap-4">
+              <div class="flex-1">
+                <label class="block mb-1 font-medium">Full name</label>
+                <input
+                  type="text"
+                  name="fullname"
+                  placeholder="Enter"
+                  required
+                  class="w-full border border-[#00973F3D] rounded-full px-4 py-2 focus:outline-green-200"
+                />
+              </div>
+              <div class="flex-1">
+                <label class="block mb-1 font-medium">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter"
+                  required
+                  class="w-full border border-[#00973F3D] rounded-full px-4 py-2 focus:outline-green-200"
+                />
+              </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-4">
+              <div class="flex-1">
+                <label class="block mb-1 font-medium">Phone Number</label>
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Enter"
+                  required
+                  pattern="^[0-9]{10}$"
+                  class="w-full border border-[#00973F3D] rounded-full px-4 py-2 focus:outline-green-200"
+                />
+              </div>
+              <div class="flex-1">
+                <label class="block mb-1 font-medium"
+                  >Service Interested In</label
+                >
+                <select
+                  name="service"
+                  required
+                  class="w-full border border-[#00973F3D] rounded-full px-4 py-2 focus:outline-green-200"
+                >
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="landscaping">
+                    Lawn and Landscape Management
+                  </option>
+                  <option value="irrigation">
+                    Landscape Design and Installation
+                  </option>
+                  <option value="lighting">Irrigation Systems</option>
+                  <option value="maintenance">Hardscaping Solutions</option>
+                  <option value="design">Water Features</option>
+                  <option value="pest-control">Outdoor Lighting</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mb-1 md:mb-0">
+              <label class="block mb-1 font-medium">Message</label>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Enter"
+                required
+                class="w-full border border-[#00973F3D] rounded-2xl px-4 py-2 resize-none focus:outline-green-200"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="btn-primary-green px-8 py-2 rounded-full md:!w-fit !w-full md:mt-6"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="w-full h-[1px] bg-gray-300 shadow-md my-10"></div>
+    <footer class="flex flex-col justify-center items-center mb-5">
+      <div>
+        <a href="">
+          <img src="images/logo.png" class="w-32 cursor-pointer" alt="Logo" />
+        </a>
+      </div>
+      <div class="flex gap-5 mt-5">
+        <a href="#aboutUs" class="hover:text-[#72bd44] text-[14px] font-medium">
+          About
+        </a>
+        <a
+          href="#services"
+          class="hover:text-[#72bd44] text-[14px] font-medium"
+        >
+          Services
+        </a>
+        <a
+          href="#ourWorks"
+          class="hover:text-[#72bd44] text-[14px] font-medium"
+        >
+          Our Work
+        </a>
+        <!-- <a href="#" class="hover:text-[#72bd44]"> Careers </a> -->
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
