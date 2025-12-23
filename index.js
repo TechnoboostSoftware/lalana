@@ -29,7 +29,7 @@ addEventListener("DOMContentLoaded", (event) => {
       `;
 
       const jsondata = {
-        token: "gUXMeJn%d7dj50w1xjgmksdgbphp",
+        token: "d7dj50w1xjgmksdgbphp",
         emailSubjectLine: "Enquiry for business",
         emailBodyContent: emailBodyContent,
       };
